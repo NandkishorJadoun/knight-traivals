@@ -1,7 +1,4 @@
 function move([x, y]) {
-  if (x < 0 || x > 7 || y < 0 || y > 7) {
-    throw new Error("Invalid position");
-  }
 
   let possibleMoves = [
     [x + 2, y + 1],
